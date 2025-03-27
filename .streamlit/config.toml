@@ -5,3 +5,6 @@ showGithubBadge = false
 
 [browser]
 gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
