@@ -1,6 +1,7 @@
 [server]
 headless = true
 runOnSave = true
+showGithubBadge = false
 
 [browser]
 gatherUsageStats = false
