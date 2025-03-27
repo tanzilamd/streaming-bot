@@ -17,6 +17,7 @@ if "chat_history" not in st.session_state:
 st.set_page_config(page_title="Tanzil Bot", page_icon="🤖")
 
 st.title("Tanzilbot")
+st.caption("Your Personal Guide for Studying Abroad!")
 
 
 # get response
