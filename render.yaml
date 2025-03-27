@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tanzilbot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GROQ_API_KEY  # Example for environment variables
+        sync: false  # Add this key manually in Render dashboard
